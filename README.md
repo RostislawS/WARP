@@ -9,3 +9,4 @@ dotnet run
 
 ## Kontakt
 Autor: Rostyslav
+Zespół: Warsztat Programisty
