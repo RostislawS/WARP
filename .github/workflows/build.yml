@@ -5,7 +5,7 @@ on:
 
 env:
   DOTNET_VERSION: 10.0.x
-  PROJECT_PATH: ./HelloWorkshop/HelloWorkshop.csproj
+  PROJECT_PATH: ./HelloWorkshop.csproj
 
 
 jobs:
