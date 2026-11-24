@@ -8,7 +8,7 @@ on:
 
 env:
   DOTNET_VERSION: 10.0.x
-  PROJECT_PATH: ./HelloWorkshop.csproj
+  PROJECT_PATH: ./HelloWorkshopERROR.csproj
 
 
 jobs:
@@ -22,6 +22,10 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v4
+
+- name: Check repository structure
+        shell: bash
+        run: bash scripts/check-repository.sh "$PROJECT_PATH"
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
