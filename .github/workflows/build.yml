@@ -23,7 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-- name: Check repository structure
+      - name: Check repository structure
         shell: bash
         run: bash scripts/check-repository.sh "$PROJECT_PATH"
 
