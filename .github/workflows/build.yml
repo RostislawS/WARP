@@ -8,7 +8,7 @@ on:
 
 env:
   DOTNET_VERSION: 10.0.x
-  PROJECT_PATH: ./HelloWorkshopERROR.csproj
+  PROJECT_PATH: ./HelloWorkshop.csproj
 
 
 jobs:
